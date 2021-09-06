@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:lib": "lerna run --scope @wasjs/vue dev --stream",
+    "dev:doc": "lerna run --scope @wasjs/doc dev --stream"
+  },
+  "dependencies": {
+    "vue": "^3.2.6",
+    "@types/webpack-env": "^1.16.2",
+    "@vueuse/core": "^5.0.3",
+    "@vueuse/integrations": "^5.0.3"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.1.5",
+    "vite": "^2.5.2"
+  }
+}
