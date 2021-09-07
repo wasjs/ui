@@ -1,0 +1,7 @@
+
+@import 'color';
+
+
+@mixin theme {
+  --background-main: #{$color__gray};
+}

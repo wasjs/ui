@@ -1,3 +1,3 @@
 <template>
-  <as-button/>
+  <router-view />
 </template>
