@@ -1,0 +1,3 @@
+<template>
+  <as-button/>
+</template>
